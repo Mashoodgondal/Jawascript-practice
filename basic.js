@@ -239,3 +239,113 @@
 
 
 
+
+
+// Filter Medhod
+
+// this medhod is used where we  need some numbers from whole array
+
+
+// let Number =[23,43,25,-76,454,67,-14]
+// const positiveNumbers= Number.filter((element)=> element > 0)
+// console.log(positiveNumbers);
+
+
+// Reduce
+
+// this method is used to perform any operation on Array
+
+// let arr=[4,6,7,4,12]
+// const sum= arr.reduce((first,second) => first+second)
+// console.log(sum);
+
+// let bickes = [
+//     {bik: 1,bikname:'roadprince', price: 60},
+//     {bik:2,bikname: 'honda', price: 80},
+//     {bik:3,bikname:'haveybike', price:  120},
+//      ]
+
+
+// const totalPrice = bickes.reduce((a,b) => a + b.price, 0 );
+// console.log(totalPrice);
+
+
+
+// let products = [
+//     {pId: 1, pTitle: 'laptop', price: 1000},
+//     {pId: 2, pTitle: 'mobile', price: 2000},
+//     {pId: 3, pTitle: 'mouse', price: 10000},
+//     {pId: 4, pTitle: 'keyboard', price: 500},
+// ]
+
+// const totalPrice = products.reduce((a, b) => a + b.price, 0);
+// console.log(totalPrice);
+
+
+// Sort the Array
+
+// let arr=[1,3,2,8,5,3,9]
+// const sortedarray=arr.sort((a,b)=> a-b)
+// console.log(sortedarray);
+
+
+
+// Every
+
+// let numbers=[2,34,56,3,245,56,54]
+// const positiveNumbers=numbers.every((num)=>num>0)
+// console.log(positiveNumbers);
+
+// some
+
+// let numbers=[2,34,-56,3,-5,56,54]
+// const positiveNumbers=numbers.some((num)=>num>0)
+// console.log(positiveNumbers);
+
+// fill
+
+// let arr=[2,34,567,43,34,5,54,2,44,5]
+// const numbers=arr.fill('q',2,5)
+// console.log(numbers);
+
+// Spice
+
+// const arr=[23,43,4,3,13254,6,8,4,6,78,5,]
+// arr.splice(2,3, 'art')
+// arr.splice( 6,2, 'ase')
+// console.log(arr);
+
+
+
+// itratable
+
+// let i='qwetyu'
+// for(char of i){
+//     console.log(char);
+// }
+
+// sets
+
+// let numbers= new Set([1,4,6,8])
+// // console.log(numbers);
+//  let num1 = numbers
+// num1.add('qwer')
+// numbers.add('adr')
+
+// console.log(numbers);
+// console.log(num1)
+
+
+// Object Assign
+
+// let person={
+//     name:'Mashood',
+//     age: '18',
+//     Gender: 'male',
+//     hobbies:['singing' ,'poetry'],
+//     skills:{
+//         technical:['c++','java'],
+//         nonTechnical:['speaking','anyOne']
+//     }
+// }
+// console.log(person?.skills?.nonTechnical);
